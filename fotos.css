@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #D21617;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+.title {
+    width: 100%;
+    height: 180px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 70px;
+    margin-top: 50px;
+}
+
+.galeria {
+    color: #D21617;
+    text-align: center;
+}
+
+.img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.img-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.img {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.img:hover {
+    transform: scale(1.02);
+}
+
+.foto-1{
+    background-image: url('https://tribunapr.uol.com.br/wp-content/uploads/sites/56/2022/02/28121730/batman-2022-tudo-o-que-precisa-saber-antes-de-ver-o-filme.jpg');
+}
+
+.foto-2{
+    background-image: url('https://br.web.img3.acsta.net/pictures/22/03/02/19/26/3666027.jpg');
+}
+
+.foto-3{
+    background-image: url('https://midias.correiobraziliense.com.br/_midias/jpg/2022/01/20/26157815-7354644.jpg');
+}
+
+.foto-4{
+    background-image: url('https://i0.wp.com/minhavisaodocinema.com.br/wp-content/uploads/2022/03/batman-mvdc-2.jpg?resize=467%2C589&ssl=1');
+}
+
+.foto-5{
+    background-image: url('https://img.elo7.com.br/product/original/3FBA80F/big-poster-filme-batman-2022-90x60-cm-lo003-poster-nerd.jpg');
+}
+
+.foto-6{
+    background-image: url('https://uauposters.com.br/media/catalog/product/cache/1/thumbnail/800x930/9df78eab33525d08d6e5fb8d27136e95/2/5/258720220222-uau-posters-the-batman-filmes-1.jpeg.jpg');
+}
+
+.foto-7{
+    background-image: url('https://media.gq.com.mx/photos/5f4806446e92226af072a87d/3:4/w_1266,h_1688,c_limit/20200824-batman-03.jpg');
+}
+
+.foto-8{
+    background-image: url('https://otriunvirato.com.br/wp-content/uploads/2022/03/FM0Mg39X0AkBAGh-1024x577.jpg');
+}
+
+.foto-9{
+    background-image: url('https://img.elo7.com.br/product/original/3FBA80F/big-poster-filme-batman-2022-90x60-cm-lo003-poster-nerd.jpg');
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
